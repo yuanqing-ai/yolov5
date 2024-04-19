@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 11
+names: ['envelope', 'fruitpeel', 'paperbag', 'paperball', 'paperbox', 'plasticbag', 'plasticbottle', 'plasticcup', 'redcube', 'tincan', 'trashbin']
+
+roboflow:
+  workspace: trashdetection-ubntx
+  project: e6692
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/trashdetection-ubntx/e6692/dataset/1
